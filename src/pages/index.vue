@@ -1,5 +1,5 @@
 <script setup>
-  import UndrawWelcome from "vue-undraw/UndrawWelcome.vue";
+  import UndrawWelcome from "vue-undraw/UndrawOnlineShopping.vue";
   import useAuth from "../composable/useAuth";
   const {isAuthenticated, user} = useAuth();
 </script>
@@ -13,7 +13,7 @@
             Welcome {{ user }}    
         </h2>
         <h2>
-            <UndrawWelcome primary-color='#41B883' height='400'/>
+            <UndrawOnlineShopping primary-color='#41B883' height='100px'/>
         </h2>
        
     </div>

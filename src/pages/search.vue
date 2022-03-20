@@ -1,5 +1,5 @@
 <script setup>
-  import UndrawAboutUsPage from "vue-undraw/UndrawAboutUsPage.vue"
+  import UndrawAboutUsPage from "vue-undraw/UndrawSearch.vue"
 </script>
 
 <template>
@@ -8,7 +8,7 @@
             About Page
         </h2>
         <h2>
-            <UndrawAboutUsPage primary-color='#41B883' height='500px'/>
+            <UndrawSearch primary-color='#41B883' height='100px'/>
         </h2>
        
     </div>
