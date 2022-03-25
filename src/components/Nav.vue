@@ -12,7 +12,7 @@ const loggingOut = () => {
 <template>
     <div class="text-blue-200 bg-blue-800">
         <div class="container flex items-center justify-between mx-auto " >
-            <h1 class="text-3xl font-thin tracking-tighter">Vue<span class="font-normal">RealAuth</span></h1>
+            <h1 class="text-3xl font-thin tracking-tighter">Final<span class="font-normal">Project</span></h1>
             <nav>
                 <ul class="flex w-full space-x-4">
                     <router-link to="/">
@@ -20,9 +20,9 @@ const loggingOut = () => {
                             Home 
                         </li>
                     </router-link>
-                    <router-link to="/about">
+                    <router-link to="/search">
                         <li class="px-4 py-8 hover:cursor-pointer hover:bg-blue-100 hover:text-blue-800">
-                            About
+                            Search
                         </li>
                     </router-link>
                     <router-link v-if="!isAuthenticated" to="/login">
@@ -31,9 +31,9 @@ const loggingOut = () => {
                         </li>
                     </router-link>
                     <div v-else class="flex">
-                        <router-link to="/secret">
+                        <router-link to="/shoppingcart">
                             <li class="px-4 py-8 hover:cursor-pointer hover:bg-blue-100 hover:text-blue-800">
-                                Secret
+                                Shopping Cart
                             </li>
                         </router-link>
                         <button  @click="loggingOut">

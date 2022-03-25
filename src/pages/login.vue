@@ -71,7 +71,10 @@ const { ready, start } = useTimeout(3000, { controls: true });
          </form>
       </div>
     </div>
-    <div v-if= "!ready && error" class="absolute w-1/3 text-center text-red-800 transition-opacity bg-red-300 rounded-lg bottom-2 right-2 p4">
+    <!--<div
+      v-if="!ready && error"
+      class="absolute w-1/3 p-4 text-center text-red-800 bg-red-300 rounded-lg  bottom-2 right-2"
+    >
       {{ error }}
-    </div>
+    </div>-->
 </template>
