@@ -12,7 +12,7 @@ const loggingOut = () => {
 <template>
     <div class="text-blue-200 bg-blue-800">
         <div class="container flex items-center justify-between mx-auto " >
-            <h1 class="text-3xl font-thin tracking-tighter">Final<span class="font-normal">Project</span></h1>
+            <h1 class="text-3xl font-thin tracking-tighter">Eden's<span class="font-normal">Clothing</span></h1>
             <nav>
                 <ul class="flex w-full space-x-4">
                     <router-link to="/">
