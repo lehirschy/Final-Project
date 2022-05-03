@@ -1,6 +1,6 @@
 import { ref } from "vue";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { firebaseAuth } from "./useFirebase";
+import { firebaseAuth } from "./useFirebase.js";
 
 const isAuthenticated = ref(false);
 

@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^7.7.0",
-    "firebase": "^9.6.8",
+    "firebase": "^9.7.0",
+    "firebased": "^0.0.6",
     "vee-validate": "^4.5.10",
     "vue": "^3.2.25",
     "vue-router": "^4.0.12",

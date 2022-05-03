@@ -8,7 +8,7 @@
             Search Page
         </h2>
         <h2>
-            <UndrawSearch primary-color='#41B883' height='100px'/>
+            <img src="../assets/search.png.png" alt="search" />
         </h2>
        
     </div>
