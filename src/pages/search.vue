@@ -1,5 +1,4 @@
 <script setup>
-  import UndrawAboutUsPage from "vue-undraw/UndrawSearch.vue"
 </script>
 
 <template>

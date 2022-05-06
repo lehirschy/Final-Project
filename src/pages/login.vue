@@ -67,7 +67,7 @@ const { ready, start } = useTimeout(3000, { controls: true });
              Sign Up
            </button>
           </div>
-          <button @click="google" class="flex justify-center py-2 bg-white rounded-lg hover:bg-green-300"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt=""></button>
+         
         </form>
       </div>
     </div>
